@@ -76,7 +76,7 @@ int addition(Node* p){
     int sum=0;
     while(p!=NULL){
         sum+=p->data;
-        //p pointer ko aage point kar do
+       
         p=p->next;
     }
     return sum;
